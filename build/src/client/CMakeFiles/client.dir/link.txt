@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/client.dir/main.c.o CMakeFiles/client.dir/__/common/protocol.c.o  -o client  -L/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/util -rdynamic ../util/libutil.a -lm -lpthread -lrt 

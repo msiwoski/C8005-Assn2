@@ -1,0 +1,47 @@
+*   Need to maintain list of client host names, data transferred, number of requests
+    []  Names - don't actually store the name anywhere; just convert the source addr to a string at the last possible minute
+    []  Data transferred - may as well do 32 bit uint. Regardless of how we do this, we're going to end up occupying 64 bits
+    []  Number of requests - same as data transferred
+    []  How to store?
+        ->  Vector seems appropriate (pre-alloc space for 10K connections/thread or something)
+        ->  We may need fast lookup though, in which case a hash map (socket->client data) could be appropriate.
+        ->  My current hash map implementation stores pointers, which means it would be total garbage for cache - would need to find one online or reimplement to store by value.
+        ->  Best option would be to somehow attach the data directly to the socket
+        ->  Vector to start with?
+            (+) yes, but keep it abstracted out so that you can drop in a hash map that stores by value later
+            (+) I could *technically* abuse the crap out of my current hash map by treating the void* as a pair of 32 bit uints, but I should probably not do that
+
+Basic architecture
+*   One thread accepts
+*   Pool of threads (or thread-per-client in the case of the threaded server) handles each connection
+*   Interface between accept thread and clients
+    []  Initialisation steps
+        ->  threads: pre-allocate a big pool of threads to handle connections
+        ->  select: basically the same thing - create worker threads and allocate client vector/hash map/whatever
+        ->  epoll: same as select
+    []  Add new clients
+        ->  this should return almost immediately so that the accept thread can go back to accepting sockets
+        ->  we need a coordinator thread for the thread pool - it will very take the new socket, return, and then handle actually dispatching it to another thread
+        ->  create a queue of 
+*   A logger should also be provided to the workers - abstracting this out will allow us to do more efficient logging later on if that becomes a bottleneck
+    []  The initial implementation can be something as simple as a spin-lock or mutex guarding stdout
+    []  Later, we can get to more complicated things like static lockless ciruclar buffers (if necessary and time permitting)
+
+So:
+typedef struct
+{
+    // IP Address
+    // Number of requests
+    // Total amount of data transferred
+} client_stats_t;
+
+typedef struct
+{
+    // Functions to log client connection stats and general info (new client accepted, connection closed, etc.)
+    void (*log_stats)(logger_t* logger, client_stats_t stats);
+    void (*log_info)(logger_t* logger, char const* info);
+
+    // Data private to the logger. Could include a pointer to a circular log buffer, a mutex to guard stdout, etc.
+    void* private;
+} logger_t;
+

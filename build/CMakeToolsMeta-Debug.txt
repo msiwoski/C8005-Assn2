@@ -1,0 +1,4 @@
+executable;server;/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/server/server
+system;Linux;x86_64;GNU
+library;util;/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/util/libutil.a
+executable;client;/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/client/client

@@ -1,0 +1,11 @@
+/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/CMakeFiles/edit_cache.dir
+/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/CMakeFiles/rebuild_cache.dir
+/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/server/CMakeFiles/edit_cache.dir
+/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/server/CMakeFiles/rebuild_cache.dir
+/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/server/CMakeFiles/server.dir
+/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/util/CMakeFiles/edit_cache.dir
+/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/util/CMakeFiles/rebuild_cache.dir
+/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/util/CMakeFiles/util.dir
+/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/client/CMakeFiles/rebuild_cache.dir
+/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/client/CMakeFiles/edit_cache.dir
+/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/client/CMakeFiles/client.dir

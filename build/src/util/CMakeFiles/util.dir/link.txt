@@ -1,0 +1,2 @@
+/usr/bin/ar qc libutil.a  CMakeFiles/util.dir/vector.c.o CMakeFiles/util.dir/ring_buffer.c.o CMakeFiles/util.dir/log.c.o
+/usr/bin/ranlib libutil.a

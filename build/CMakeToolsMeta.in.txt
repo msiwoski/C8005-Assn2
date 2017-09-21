@@ -1,0 +1,4 @@
+executable;server;$<TARGET_FILE:server>
+system;Linux;x86_64;GNU
+library;util;$<TARGET_FILE:util>
+executable;client;$<TARGET_FILE:client>

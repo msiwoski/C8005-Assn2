@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/server",
+  "command": "/usr/bin/cc   -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/server -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/util -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/common  -g   -o CMakeFiles/server.dir/main.c.o   -c /home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/server/main.c",
+  "file": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/server/main.c"
+},
+{
+  "directory": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/server",
+  "command": "/usr/bin/cc   -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/server -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/util -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/common  -g   -o CMakeFiles/server.dir/acceptor.c.o   -c /home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/server/acceptor.c",
+  "file": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/server/acceptor.c"
+},
+{
+  "directory": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/server",
+  "command": "/usr/bin/cc   -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/server -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/util -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/common  -g   -o CMakeFiles/server.dir/thread_server.c.o   -c /home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/server/thread_server.c",
+  "file": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/server/thread_server.c"
+},
+{
+  "directory": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/server",
+  "command": "/usr/bin/cc   -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/server -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/util -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/common  -g   -o CMakeFiles/server.dir/select_server.c.o   -c /home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/server/select_server.c",
+  "file": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/server/select_server.c"
+},
+{
+  "directory": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/server",
+  "command": "/usr/bin/cc   -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/server -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/util -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/common  -g   -o CMakeFiles/server.dir/epoll_server.c.o   -c /home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/server/epoll_server.c",
+  "file": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/server/epoll_server.c"
+},
+{
+  "directory": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/server",
+  "command": "/usr/bin/cc   -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/server -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/util -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/common  -g   -o CMakeFiles/server.dir/server.c.o   -c /home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/server/server.c",
+  "file": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/server/server.c"
+},
+{
+  "directory": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/server",
+  "command": "/usr/bin/cc   -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/server -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/util -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/common  -g   -o CMakeFiles/server.dir/__/common/protocol.c.o   -c /home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/common/protocol.c",
+  "file": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/common/protocol.c"
+},
+{
+  "directory": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/util",
+  "command": "/usr/bin/cc   -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/util  -g   -std=c11 -o CMakeFiles/util.dir/vector.c.o   -c /home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/util/vector.c",
+  "file": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/util/vector.c"
+},
+{
+  "directory": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/util",
+  "command": "/usr/bin/cc   -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/util  -g   -std=c11 -o CMakeFiles/util.dir/ring_buffer.c.o   -c /home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/util/ring_buffer.c",
+  "file": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/util/ring_buffer.c"
+},
+{
+  "directory": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/util",
+  "command": "/usr/bin/cc   -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/util  -g   -std=c11 -o CMakeFiles/util.dir/log.c.o   -c /home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/util/log.c",
+  "file": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/util/log.c"
+},
+{
+  "directory": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/client",
+  "command": "/usr/bin/cc   -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/client -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/util -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/common  -g   -o CMakeFiles/client.dir/main.c.o   -c /home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/client/main.c",
+  "file": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/client/main.c"
+},
+{
+  "directory": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/build/src/client",
+  "command": "/usr/bin/cc   -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/client -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/util -I/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/include/assn2/common  -g   -o CMakeFiles/client.dir/__/common/protocol.c.o   -c /home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/common/protocol.c",
+  "file": "/home/maciu/Desktop/School/C8005/A2/COMP8005-Assn2/src/common/protocol.c"
+}
+]
