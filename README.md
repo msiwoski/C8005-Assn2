@@ -1,1 +1,31 @@
-# C8005-Assn2
+COMP 8005 - Assignment 2 - EPOLL
+================================
+
+To run the application, navigate to the folder that the script was installed to and type:
+	sudo 
+
+﻿Application Information
+Compilation
+The following must be done to compile and execute the application:
+dnf install cmake
+After installing the application to a folder, in the terminal move to application folder COMP8005-Assn2, and run the following:
+mkdir build
+cmake .. -G ”UNIX Makefiles”
+make
+Running the Client
+If running the client, within the build folder, move to the client folder and run
+./client -i [IP_ADDRESS] -p [PORT] -m [#_REQUESTS]-n [#_CONNECTIONS] -s [MSG_SIZE]
+The following parameters can be set:
+-i - The ip to connect to.
+        -p - The port to connect on
+        -m - The number of requests to send
+        -n - The number of threads to make
+        -s - The size of the message that will be sent to the server
+Running the Server
+If running the server, within the build folder, move to the server folder and run
+./server -s [thread|select|epoll] //dependent on the server that you want to execute
+The following parameters can be set:
+-s - The type of server to run (Thread, Select or epoll.
+Note
+In the even that the client or server are getting the error “Too many open files” in the same terminal that is running the application, execute:
+        ulimit -n 65535    //this must be run on the terminal that the server/client is being executed on
